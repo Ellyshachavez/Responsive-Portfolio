@@ -485,20 +485,24 @@ body {
 @media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
     .main-section {
-      background-color: #333;
+    
       padding: 50px;
-      margin: 10%;
-      width: 75%;
+      margin: 5%;
+      width: 90%;
+      margin-right: 0%;
+      padding-right:40%;
      
     }
-  
+  .work {
+      margin:auto;
+  }
   
   }
 
   @media screen and (max-width: 640px) {
     /* The body's bg color will be #333 */
     .main-section {
-      background-color: rgb(186, 225, 243);
+  
       padding: 50px;
       margin: 10%;
     }
@@ -523,7 +527,6 @@ body {
   @media screen and (max-width: 980px) {
   
     .main-section {
-      background-color: rgb(226, 220, 220);
       padding: 50px;
       /* margin: 30%; */
     }
