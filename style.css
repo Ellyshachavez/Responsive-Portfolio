@@ -489,6 +489,7 @@ body {
       padding: 50px;
       margin: 10%;
       width: 75%;
+     
     }
   
   
@@ -497,7 +498,7 @@ body {
   @media screen and (max-width: 640px) {
     /* The body's bg color will be #333 */
     .main-section {
-      background-color: rgb(114, 109, 109);
+      background-color: rgb(186, 225, 243);
       padding: 50px;
       margin: 10%;
     }
@@ -505,7 +506,19 @@ body {
         width: 85%;
         margin: auto;
     }
-  
+    .work h3 { 
+        height:-40%;
+        font-size: 16px;
+        padding: -20%;
+        line-height: 10%;
+    }
+    #rutgers {
+        line-height: 15px;
+        height: 20%;
+        padding:0%;
+        padding-top: 5px;
+
+    }
   }
   @media screen and (max-width: 980px) {
   
