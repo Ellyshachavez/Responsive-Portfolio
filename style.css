@@ -480,3 +480,47 @@ body {
       font-size: 1.6rem;
     }
   }
+
+/* Media Quaries Index */
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    .main-section {
+      background-color: #333;
+      padding: 50px;
+      margin: 10%;
+      width: 75%;
+    }
+  
+    /* The wrapper's width will be 600px 
+    .wrapper {
+      width: 600px;
+    } */
+  }
+
+  @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    .main-section {
+      background-color: rgb(114, 109, 109);
+      padding: 50px;
+      margin: 10%;
+    }
+  
+    /* The wrapper's width will be 600px 
+    .wrapper {
+      width: 600px;*/
+    }
+  }
+  @media screen and (max-width: 980px) {
+  
+    .main-section {
+      background-color: rgb(226, 220, 220);
+      padding: 50px;
+      /* margin: 30%; */
+    }
+  
+
+    .wrapper {
+      width: 600px;
+    }
+  }
