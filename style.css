@@ -143,6 +143,7 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  margin-left: 70px;
 }
 
 .work:nth-child(even) {
@@ -259,7 +260,7 @@ body {
   
   #logo:hover,
   input[type=submit]:hover {
-    background: #5e7f7e;
+    background: #147a88;
   }
   
   nav a:hover {
@@ -412,7 +413,7 @@ body {
   .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+    max-width: 850px;
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
