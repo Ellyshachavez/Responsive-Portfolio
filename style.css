@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+ 
 }
 
 * {
@@ -225,7 +225,6 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url("../images/concrete_seamless.png");
   }
   
   * {
@@ -492,10 +491,7 @@ body {
       width: 75%;
     }
   
-    /* The wrapper's width will be 600px 
-    .wrapper {
-      width: 600px;
-    } */
+  
   }
 
   @media screen and (max-width: 640px) {
@@ -505,11 +501,11 @@ body {
       padding: 50px;
       margin: 10%;
     }
-  
-    /* The wrapper's width will be 600px 
-    .wrapper {
-      width: 600px;*/
+    .work {
+        width: 85%;
+        margin: auto;
     }
+  
   }
   @media screen and (max-width: 980px) {
   
@@ -519,8 +515,4 @@ body {
       /* margin: 30%; */
     }
   
-
-    .wrapper {
-      width: 600px;
-    }
   }
